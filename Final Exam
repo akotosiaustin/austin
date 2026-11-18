@@ -1,0 +1,261 @@
+# ======================================================
+#       PYTHON COMPLETE LEARNING HUB
+# ======================================================
+
+def lesson_1():
+    print("\n" + "=" * 50)
+    print("      LESSON 1: Introduction to Programming      ")
+    print("=" * 50)
+    print(" What is Programming?")
+    print("- Programming is the way we tell computers what to do.")
+    print("- Computers understand instructions written in programming languages.")
+    print("- Python is a popular, easy-to-read language.\n")
+    
+    print("  Why Learn Python?")
+    print("  Easy to read and write")
+    print("  Used in many fields: web, data, AI, games")
+    print("  Huge community and free to use\n")
+    
+    print(" Your First Program:")
+    print(' print("Hello, World!")')
+    print(" Output: Hello, World!\n")
+    
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_2():
+    print("\n" + "=" * 50)
+    print("         LESSON 2: Python Basic Syntax         ")
+    print("=" * 50)
+    print(" Basic Rules in Python:")
+    print("- No semicolons needed at the end of lines")
+    print("- Indentation matters! Use spaces to organize your code.")
+    print("- Comments start with # — Python ignores them.\n")
+    
+    print(" Example:")
+    print(' # This is a comment')
+    print(' name = "Ana"       # String/text')
+    print(' age = 16            # Integer/whole number')
+    print(' height = 1.65       # Float/decimal number')
+    print(' is_student = True   # Boolean Thttps://www.onlinegdb.com/#tab-stdinrue or False\n')
+    
+    print("️ Note: Python is CASE-SENSITIVE! 'Name' ≠ 'name'\n")
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_3():
+    print("\n" + "=" * 50)
+    print("   LESSON 3: Arithmetic Operators & Expressions   ")
+    print("=" * 50)
+    print(" Common Math Operators in Python:\n")
+    print("   +   Addition          5 + 2  = 7")
+    print("   -   Subtraction       5 - 2  = 3")
+    print("   *   Multiplication    5 * 2  = 10")
+    print("   /   Division          5 / 2  = 2.5")
+    print("   //  Floor Division    5 // 2 = 2  (drops decimal)")
+    print("   %   Modulus/Remainder 5 % 2  = 1")
+    print("   *  Exponent/Power    5 * 2 = 25\n")
+    
+    print("Example:")
+    print(' a = 10')
+    print(' b = 3')
+    print(' print(a + b)   # 13')
+    print(' print(a % b)   # 1\n')
+    
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_4():
+    print("\n" + "=" * 50)
+    print("    LESSON 4: Basic Input and Output in Python    ")
+    print("=" * 50)
+    print(" Output — print() function")
+    print(' print("Hi there!")')
+    print(' print("Hello", "World")  # Automatically adds space\n')
+    
+    print(" Input — input() function")
+    print(' name = input("Enter your name: ")  # Gets text')
+    print(' age = int(input("Enter your age: "))  # Gets number\n')
+    
+    print(" Formatted Output (f-strings)")
+    print(' print(f"Hello {name}, you are {age} years old!")\n')
+    
+    print(" Remember: input() ALWAYS gives text. Use int() or float() if you need numbers!\n")
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_5():
+    print("\n" + "=" * 50)
+    print("      LESSON 5: Conditional Statements      ")
+    print("=" * 50)
+    print(" Make decisions with if / elif / else\n")
+    print(" Structure:")
+    print(' if condition:')
+    print('     do something')
+    print(' elif another condition:')
+    print('     do something else')
+    print(' else:')
+    print('     do this when none are true\n')
+    
+    print(" Comparison Operators:")
+    print("   ==  Equal to        !=  Not equal to")
+    print("   >   Greater than    <   Less than")
+    print("   >=  Greater or equal  <=  Less or equal\n")
+    
+    print(" Example:")
+    print(' score = 85')
+    print(' if score >= 75:')
+    print('     print("Passed! ")')
+    print(' else:')
+    print('     print("Failed ")\n')
+    
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_6():
+    print("\n" + "=" * 50)
+    print("           LESSON 6: Logical Operators           ")
+    print("=" * 50)
+    print(" Combine conditions — and, or, not\n")
+    
+    print("and → Both conditions must be TRUE")
+    print(' age = 20')
+    print(' if age >= 13 and age <= 19:')
+    print('     print("Teenager")')
+    print(' else:')
+    print('     print("Not a teenager")\n')
+    
+    print("or → At least one condition is TRUE")
+    print(' if day == "Sat" or day == "Sun":')
+    print('     print("Weekend! ")\n')
+    
+    print("not → Reverses the condition")
+    print(' if not is_raining:')
+    print('     print("Go outside! ☀")\n')
+    
+    print(" Quick Summary:")
+    print("   and = ALL true | or = ANY true | not = Flip n")
+    
+    input("Press Enter to return to the main menu...")
+
+
+def lesson_7():
+    print("\n" + "=" * 50)
+    print(" LESSON 7: Introduction to Iteration and Loops ")
+    print("=" * 50)
+    print(" Loops let you repeat code without typing it again!\n")
+    
+    print(" 1. while loop — repeats AS LONG AS condition is TRUE")
+    print(' count = 1')
+    print(' while count <= 5:')
+    print('     print(count)')
+    print('     count += 1')
+    print(' # Output: 1 2 3 4 5\n')
+    
+    print(" 2. for loop — repeats FOR each item in a sequence")
+    print(' for number in range(1, 6):')
+    print('     print(number)')
+    print(' # Output: 1 2 3 4 5\n')
+    
+    print("️ Important: Don't forget to stop the loop! Otherwise it runs forever.\n")
+    
+    input("Press Enter to return to the main menu...")
+
+
+def run_quiz():
+    print("\n" + "=" * 50)
+    print("           PYTHON KNOWLEDGE QUIZ          ")
+    print("=" * 50)
+    score = 0
+    
+    # Question 1
+    print("\n1. Which symbol is used for comments in Python?")
+    print("   a) //   b) #   c) /* */")
+    ans = input("Your answer: ").strip().lower()
+    if ans == 'b':
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: b) #")
+    
+    # Question 2
+    print("\n2. Which operator means 'equal to'?")
+    print("   a) =   b) ==   c) ===")
+    ans = input("Your answer: ").strip().lower()
+    if ans == 'b':
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: b) ==")
+    
+    # Question 3
+    print("\n3. Which loop repeats as long as a condition is true?")
+    print("   a) while   b) for   c) repeat")
+    ans = input("Your answer: ").strip().lower()
+    if ans == 'a':
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: a) while")
+    
+    # Question 4
+    print("\n4. What function do you use to get input from the user?")
+    print("   a) get_input()   b) input()   c) read()")
+    ans = input("Your answer: ").strip().lower()
+    if ans == 'b':
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: b) input()")
+    
+    # Question 5
+    print("\n5. Which symbol is used for multiplication in Python?")
+    print("   a) x   b) *   c) xor")
+    ans = input("Your answer: ").strip().lower()
+    if ans == 'b':
+        print("Correct!")
+        score += 1
+    else:
+        print("Wrong! The correct answer is: b) *")
+    
+    print("\n" + "-" * 50)
+    print(f" Quiz Complete! Your Score: {score}/5")
+    print("-" * 50)
+    input("\nPress Enter to return to the main menu...")
+
+
+def main():
+    while True:
+        print("\n" + "=" * 50)
+        print("       PYTHON LEARNING HUB       ")
+        print("=" * 50)
+        print("  1. Introduction to Programming")
+        print("  2. Python Basic Syntax")
+        print("  3. Arithmetic Operators & Expressions")
+        print("  4. Basic Input and Output in Python")
+        print("  5. Conditional Statements")
+        print("  6. Logical Operators")
+        print("  7. Introduction to Loops")
+        print("  8. Take the Quiz (5 Items)")
+        print("  9. Exit Program")
+        print("=" * 50)
+        
+        choice = input("\nEnter your choice (1-9): ").strip()
+        
+        if choice == '1': lesson_1()
+        elif choice == '2': lesson_2()
+        elif choice == '3': lesson_3()
+        elif choice == '4': lesson_4()
+        elif choice == '5': lesson_5()
+        elif choice == '6': lesson_6()
+        elif choice == '7': lesson_7()
+        elif choice == '8': run_quiz()
+        elif choice == '9':
+            print("\n Thank you for learning with us! Keep coding! ")
+            break
+        else:
+            print("\n Invalid choice! Please enter a number from 1 to 9.")
+
+
+if __name__ == "__main__":
+    main()
